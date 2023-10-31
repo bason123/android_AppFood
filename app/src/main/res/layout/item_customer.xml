@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="13dp"
+    android:layout_marginBottom="8dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@drawable/diglog_customer"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4">
+            <TextView
+                android:paddingStart="18sp"
+                android:id="@+id/NameCustomer"
+                android:text="Nguyễn Thị Tuyết"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:layout_width="300dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:paddingStart="30sp"
+                android:id="@+id/yearOfBirth"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:text="năm sinh: 1995"
+                android:layout_width="300dp"
+                android:layout_height="50dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btnEdit"
+                android:background="@drawable/ic_baseline_edit_24"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+            <Button
+                android:id="@+id/btnDelete"
+                android:background="@drawable/ic_baseline_delete_24"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

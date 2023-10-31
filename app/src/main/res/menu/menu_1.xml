@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/listCallCard" android:icon="@drawable/icon_callcard" android:title="Phiếu Mượn"></item>
+    <item android:id="@+id/Customer" android:title="Thành Viên" android:icon="@drawable/ic_customer"></item>
+    <item android:id="@+id/ClassifyBook" android:title="Loại Sách" android:icon="@drawable/ic_classify"></item>
+    <item android:id="@+id/Book" android:title="Sách" android:icon="@drawable/ic_book"></item>
+    <item android:title="Thống Kê">
+        <menu>
+            <item android:id="@+id/menuTop10" android:title="Top 10 Sách Thuê Nhiều Nhất" android:icon="@drawable/ic_add_librarian"></item>
+            <item android:id="@+id/menuDoanhThu" android:title="Doanh Thu" android:icon="@drawable/ic_changepassword"></item>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_acc" android:title="Tài Khoản">
+        <menu>
+            <item android:id="@+id/addLibrarian" android:title="Thêm thủ thư" android:icon="@drawable/ic_add_librarian"></item>
+            <item android:id="@+id/changePassWord" android:title="Đổi mật khẩu" android:icon="@drawable/ic_changepassword"></item>
+            <item android:id="@+id/signOut" android:title="Đăng Xuất" android:icon="@drawable/ic_signout"></item>
+        </menu>
+    </item>
+
+</menu>
